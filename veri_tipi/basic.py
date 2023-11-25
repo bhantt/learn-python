@@ -2,6 +2,7 @@
 
 ####### int sayi = 5 gibi başına int yazmaya gerek yok #######
 
+###--------SAYI VERİ TİPLERİ--------###
 ##--INT--##
 sayi = 5
 print(sayi)
@@ -12,9 +13,6 @@ sayi3 = 3.2 # noktalı olmalı
 print(sayi2)
 print(sayi3)
 
-##-STRING--##
-metin = "Hello World!"
-print(metin)
 
 ##--BOOLEAN--##
 gercek = True # 0'dan farklı her değer
@@ -38,3 +36,41 @@ print(dict)
 tup  = (1,2,True) # değiştirilemez liste
 print(tup)
 
+print()
+###--------STRING VERİ TİPLERİ--------###
+
+##-STRING--##
+metin = "Hello World!"
+print(metin)
+
+
+print()
+##-INDEX-##
+print(metin[3]) 
+# eğer bir yerden itibaren başlatmak istiyorsanız da
+print(metin[3:]) # 3. indexten sona kadar gider
+print(metin[3:7]) # 3. indexten 7. indexe kadar gider 3 dahil ama 7. index dahil değildir.
+print(metin[0:3:2]) # 0. indexten başla, 3. indexe git 2 atla
+
+print()
+##-LENGTH-##
+print(len(metin)) # saymaya 1'den başlar!
+
+print()
+##-CONCAT--## 
+
+print(metin+" Merhaba Dünya!")
+
+#metin +=" Batuhan!"
+print(metin)
+
+##-ÇARPMA-##
+
+print(metin*5)
+
+print()
+##-UPPERCASE-LOWER-SPLİT##
+
+print(metin.upper())
+print(metin.lower())
+print(metin.split()) # ayırma
