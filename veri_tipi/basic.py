@@ -46,18 +46,19 @@ print(metin)
 
 print()
 ##-INDEX-##
-print(metin[3]) 
+print(metin[3]) # metindeki 3. indexi gösterir
+
 # eğer bir yerden itibaren başlatmak istiyorsanız da
 print(metin[3:]) # 3. indexten sona kadar gider
 print(metin[3:7]) # 3. indexten 7. indexe kadar gider 3 dahil ama 7. index dahil değildir.
 print(metin[0:3:2]) # 0. indexten başla, 3. indexe git 2 atla
 
 print()
-##-LENGTH-##
+##-LENGTH-## uzunluk
 print(len(metin)) # saymaya 1'den başlar!
 
 print()
-##-CONCAT--## 
+##-CONCAT--## metin birleştirme
 
 print(metin+" Merhaba Dünya!")
 
