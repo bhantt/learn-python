@@ -1,5 +1,9 @@
-ulkeler = ['TR','FR','DE','GB']
-sira = range(1,5)
+a = ("John", "Charles", "Mike")
+b = ("Jenny", "Christy", "Monica", "Vicky")
 
-for ulke in zip(ulkeler,sira):
-   print(ulke)
+for i in zip(a,b):
+   print(i)
+
+"""2 LİSTEYİ BİRLEŞTİRİR"""
+
+
