@@ -14,6 +14,7 @@ Print Output:
 map.py'deki def karesi() fonksiyonu gibi kullanılır.
 
 """
+#-------------------#
 
 #filter ile
 
@@ -25,6 +26,7 @@ Print Output:
 [2, 4]
 """
 
+#-------------------#
 x = lambda a : a + 20
 print(x(5))
 
